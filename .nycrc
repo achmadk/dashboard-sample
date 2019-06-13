@@ -1,0 +1,19 @@
+{
+  "require": [
+    "@babel/register"
+  ],
+  "reporter": [
+    "html"
+  ],
+  "extension": [
+    ".jsx"
+  ],
+  "exclude": [
+    "**/*.spec.jsx",
+    "**/*.spec.js",
+    "test"
+  ],
+  "cache": true,
+  "sourceMap": false,
+  "instrument": false
+}

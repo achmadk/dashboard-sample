@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Page Async Container render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <ConnectFunction />
+</Provider>
+`;
+
+exports[`Dashboard Page Component render correctly 1`] = `
+<div
+  className="main-app-container"
+>
+  <SidenavContainer />
+  <section
+    className="app-page-container"
+    id="page-container"
+  >
+    <HeaderContainer />
+    <div
+      className="app-content-wrapper"
+    >
+      <div
+        className="app-content"
+      >
+        <div
+          className="h-100"
+        >
+          <DashboardTypesComponent />
+        </div>
+      </div>
+      <FooterContainer />
+    </div>
+  </section>
+</div>
+`;

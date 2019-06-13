@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header Layout Component render correctly 1`] = `
+<section
+  className="app-header"
+>
+  <div
+    className="app-header-inner"
+  >
+    <div
+      className="d-lg-none d-xl-none float-left"
+    >
+      <a
+        className="header-icon toggle-sidebar-btn"
+        href="javascript:;"
+      >
+        <i
+          className="material-icons"
+          style={
+            Object {
+              "color": "black",
+            }
+          }
+        >
+          menu
+        </i>
+      </a>
+    </div>
+    <div
+      className="brand d-none d-lg-inline-block d-xl-inline-block"
+    >
+      <h2>
+        <Link
+          to="/"
+        >
+          ProcurA
+        </Link>
+      </h2>
+    </div>
+    <div
+      className="top-nav-left d-none d-lg-inline-block d-xl-inline-block"
+    >
+      <withRouter(NavLeftList) />
+    </div>
+    <div
+      className="top-nav-right"
+    >
+      <ConnectFunction />
+    </div>
+  </div>
+</section>
+`;

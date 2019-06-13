@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Simple Table Component render correctly with loading props value is false 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "marginBottom": 16,
+      "overflowX": "auto",
+    }
+  }
+  style={
+    Object {
+      "height": "100%",
+    }
+  }
+>
+  <React.Suspense
+    fallback={
+      <Skeleton
+        animated={true}
+        borderRadius="8px"
+        color="#EFF1F6"
+        count={25}
+        height={150}
+        heightRandomness={0}
+        width="100%"
+        widthRandomness={0.25}
+      />
+    }
+  >
+    <React.Lazy
+      classes={
+        Object {
+          "tableRoot": Object {
+            "marginBottom": 16,
+            "overflowX": "auto",
+          },
+          "title": Object {
+            "flex": "0 0 auto",
+          },
+        }
+      }
+      initialHeight={450}
+      loading={false}
+      title="Simple Table Title"
+    />
+  </React.Suspense>
+</WithStyles(Paper)>
+`;
+
+exports[`Simple Table Component render correctly with loading props value is true 1`] = `
+<WithStyles(Paper)
+  className={
+    Object {
+      "marginBottom": 16,
+      "overflowX": "auto",
+    }
+  }
+  style={
+    Object {
+      "height": 450,
+    }
+  }
+>
+  <React.Suspense
+    fallback={
+      <Skeleton
+        animated={true}
+        borderRadius="8px"
+        color="#EFF1F6"
+        count={25}
+        height={150}
+        heightRandomness={0}
+        width="100%"
+        widthRandomness={0.25}
+      />
+    }
+  >
+    <React.Lazy
+      classes={
+        Object {
+          "tableRoot": Object {
+            "marginBottom": 16,
+            "overflowX": "auto",
+          },
+          "title": Object {
+            "flex": "0 0 auto",
+          },
+        }
+      }
+      initialHeight={450}
+      loading={true}
+      title="Simple Table Title"
+    />
+  </React.Suspense>
+</WithStyles(Paper)>
+`;

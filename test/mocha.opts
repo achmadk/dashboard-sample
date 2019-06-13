@@ -1,0 +1,3 @@
+--reporter=html mocha
+--require @babel/register
+-r mock-local-storage ./test/setup.js

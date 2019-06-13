@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Entries Component render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <ConnectFunction />
+</Provider>
+`;
+
+exports[`Dashboard Entries Container render correctly 1`] = `
+<React.Suspense
+  fallback={
+    <div>
+      Loading...
+    </div>
+  }
+>
+  <React.Lazy />
+</React.Suspense>
+`;

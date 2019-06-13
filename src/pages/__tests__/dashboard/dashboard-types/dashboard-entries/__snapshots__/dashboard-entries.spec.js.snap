@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Entries Component render correctly 1`] = `
+<Fragment>
+  <h2
+    className="article-title"
+  />
+  <div
+    className="ui-animate"
+  >
+    <WithStyles(LoadingComponent) />
+    <pre>
+      null
+    </pre>
+  </div>
+</Fragment>
+`;
+
+exports[`Dashboard Entries Component render correctly without matching URL from dashboard-contents 1`] = `
+<Fragment>
+  <h2
+    className="article-title"
+  />
+  <div
+    className="ui-animate"
+  >
+    <WithStyles(LoadingComponent) />
+    <pre>
+      null
+    </pre>
+  </div>
+</Fragment>
+`;

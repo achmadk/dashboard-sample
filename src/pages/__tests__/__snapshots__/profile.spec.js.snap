@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile Page Async Container render correctly 1`] = `
+<React.Suspense
+  fallback={
+    <div>
+      Loading...
+    </div>
+  }
+>
+  <React.Lazy />
+</React.Suspense>
+`;
+
+exports[`Profile Page Component render correctly 1`] = `
+<span>
+  Profile
+</span>
+`;

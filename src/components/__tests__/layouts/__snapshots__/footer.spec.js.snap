@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Layout Component render correctly 1`] = `
+<section
+  className="app-footer"
+>
+  <div
+    className="container-fluid"
+  >
+    <span
+      className="float-left"
+    >
+      <span>
+        Copyright © 
+        <a
+          className="brand"
+          href="http://procura.id"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          ProcurA
+        </a>
+         2019
+      </span>
+    </span>
+    <span
+      className="float-right"
+    >
+      <span>
+        Built with Love 
+        <i
+          className="material-icons"
+        >
+          favorite_border
+        </i>
+      </span>
+    </span>
+  </div>
+</section>
+`;
+
+exports[`Footer Layout Container render correctly 1`] = `
+<React.Suspense
+  fallback={
+    <div>
+      Loading...
+    </div>
+  }
+>
+  <React.Lazy />
+</React.Suspense>
+`;
